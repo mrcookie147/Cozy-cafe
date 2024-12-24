@@ -1,0 +1,526 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter.ttf);
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url(fonts/InterBold.ttf);
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #efece6;
+}
+
+.hBig {
+    font-family: InterBold;
+    font-size: 58px;
+    color: #282824;
+}
+
+.h {
+    font-family: InterBold;
+    font-size: 48px;
+    color: #282824;
+}
+
+.hMini {
+    font-family: InterBold;
+    font-size: 26px;
+    color: #4A4A45;
+}
+
+.p {
+    font-family: Inter;
+    font-size: 20px;
+    color: #4A4A45;
+}
+
+.bodyes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 40px;
+    grid-column-gap: 20px;
+    span {
+        min-width: 300px;
+    }
+}
+
+.welcome1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: center;
+    margin: 10px;
+    span {
+        margin-bottom: 30px;
+    }
+    button {
+        background-color: #282824;
+        border: none;
+        color: #efece6;
+        font-family: InterBold;
+        width: 170px;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+.welcome2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: auto;
+    aspect-ratio: 1 / 1;
+    position: relative;
+}
+
+#mainImg {
+    max-width: 440px;
+    max-height: 440px;
+    min-width: 400px;
+    min-height: 400px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.savor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.savor2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    div {
+        flex-grow: 1;
+        flex-basis: 250px;
+        display: flex;
+        flex-direction: column;
+        background-color: #e5dfd2;
+        padding: 20px;
+        margin: 10px;
+        .hMini {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.atmosphere {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.atmosphere2 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    img {
+        width: 50px;
+        height: 50px;
+        color: #282824;
+        margin: 0;
+        padding: 0;
+    }
+    .atmosphere_mini {
+        flex-grow: 1;
+        flex-basis: 250px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        .hMini {
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+    }
+}
+
+.story {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    padding: 26px;
+    margin: 40px;
+    background-color: #e5dfd2;
+}
+
+.story1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding-right: 60px;
+    .h {
+        margin-bottom: 20px;
+    }
+    .p {
+        max-width: 600px;
+        min-width: 470px;
+    }
+}
+
+.story2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    height: 100%;
+}
+
+.story2 img {
+    width: 100%;
+    height: 100%;
+    max-height: 435px;
+    max-width: 600px;
+    min-width: 300px;
+    object-fit: cover;
+}
+
+.savor2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    div {
+        flex-grow: 1;
+        flex-basis: 250px;
+        display: flex;
+        flex-direction: column;
+        background-color: #e5dfd2;
+        padding: 20px;
+        margin: 10px;
+        .hMini {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.menu2 {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.menu2 .menu_mini {
+    flex: 1 1 calc(30% - 20px);
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    .hMini {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.menu2 .menu_mini img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.indulge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.indulge2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    div {
+        flex-grow: 1;
+        flex-basis: 250px;
+        display: flex;
+        flex-direction: column;
+        background-color: #e5dfd2;
+        padding: 20px;
+        margin: 10px;
+        .hMini {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.relax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.relax2 {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.relax2 .relax_mini {
+    flex: 1 1 calc(50% - 20px);
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    .hMini {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.relax .relax_mini img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.savor1 {
+    margin: 10px;
+}
+
+.atmosphere1 {
+    margin: 10px;
+}
+
+.menu1 {
+    margin: 10px;
+}
+
+.indulge1 {
+    margin: 10px;
+}
+
+.relax1 {
+    margin: 10px;
+}
+
+@media screen and (max-width: 1581px) and (min-width:1050px) {
+    .flex {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1049px) {
+    .flex {
+        width: 90%;
+    }
+    .hBig {
+        font-family: InterBold;
+        font-size: 48px;
+        color: #282824;
+    }
+    .h {
+        font-family: InterBold;
+        font-size: 38px;
+        color: #282824;
+        white-space: normal;
+    }
+    .hMini {
+        font-family: InterBold;
+        font-size: 22px;
+        color: #4A4A45;
+    }
+    .p {
+        font-family: Inter;
+        font-size: 16px;
+        color: #4A4A45;
+    }
+    .welcome2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        width: 40%;
+        aspect-ratio: 1 / 1;
+        position: relative;
+    }
+    #mainImg {
+        max-width: 250px;
+        max-height: 350px;
+        min-width: 250px;
+        min-height: 350px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .story {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        padding: 26px;
+        margin: 40px;
+        background-color: #e5dfd2;
+    }
+    .story1 {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding-right: 0px;
+        .h {
+            margin-bottom: 20px;
+        }
+        .p {
+            max-width: 600px;
+            min-width: 300px;
+        }
+    }
+    .story2 {
+        width: 100%;
+        max-width: none;
+        padding: 0;
+        margin: 0;
+    }
+    .story2 img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .menu2 {
+        margin: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 630px) {
+    .bodyes {
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+    .flex {
+        width: 80%;
+    }
+    .hBig {
+        font-family: InterBold;
+        font-size: 44px;
+        color: #282824;
+    }
+    .h {
+        font-family: InterBold;
+        font-size: 32px;
+        color: #282824;
+    }
+    .hMini {
+        font-family: InterBold;
+        font-size: 22px;
+        color: #4A4A45;
+    }
+    .p {
+        font-family: Inter;
+        font-size: 16px;
+        color: #4A4A45;
+    }
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding: 40px;
+        span {
+            min-width: 300px;
+        }
+    }
+    .welcome1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: center;
+        margin: 10px;
+    }
+    .welcome2 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        max-height: 300px;
+        min-width: 300px;
+    }
+    #mainImg {
+        max-width: none;
+        min-width: 0;
+        min-height: 0;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        max-height: 300px;
+    }
+    .welcome,
+    .savor,
+    .atmosphere,
+    .story,
+    .menu,
+    .indulge,
+    .relax {
+        padding: 20px;
+    }
+}
